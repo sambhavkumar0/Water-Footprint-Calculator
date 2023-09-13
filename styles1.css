@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    background-color: rgb(163, 236, 236);
+}
+
+.h1{
+    background: linear-gradient(to right,blue,lightblue,white);
+    color:darkblue;
+}
