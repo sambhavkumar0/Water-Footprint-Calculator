@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link to a separate CSS file for styling -->
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <table>
+        <tbody>
+          <tr>
+            <td width="50%">Country of residence</td>
+            <td width="50%">
+    <select name="Country_ID">
+    <option value="0" selected="selected">Select a Country</option>
+    <option value="1">Albania</option>
+    <option value="2">Algeria</option>
+    <option value="3">Angola</option>
+    
+    <option value="4">Argentina</option>
+    <option value="5">Armenia</option>
+    <option value="6">Australia</option>
+    <option value="7">Austria</option>
+    <option value="8">Azerbaijan, Republic of</option>
+    <option value="9">Bangladesh</option>
+    <option value="10">Barbados</option>
+    <option value="11">Belarus</option>
+    <option value="12">Belgium-Luxembourg</option>
+    
+    <option value="13">Belize</option>
+    <option value="14">Benin</option>
+    <option value="15">Bolivia</option>
+    <option value="16">Brazil</option>
+    <option value="17">Bulgaria</option>
+    <option value="18">Burkina Faso</option>
+    <option value="19">Burundi</option>
+    <option value="20">Cameroon</option>
+    <option value="21">Canada</option>
+    
+    <option value="22">Cape Verde</option>
+    <option value="23">Central African Republic</option>
+    <option value="24">Chile</option>
+    <option value="25">China</option>
+    <option value="26">Colombia</option>
+    <option value="27">Congo, Dem Republic of</option>
+    <option value="28">Costa Rica</option>
+    <option value="29">C�te d'Ivoire</option>
+    <option value="30">Cuba</option>
+    
+    <option value="31">Cyprus</option>
+    <option value="32">Czech Republic</option>
+    <option value="33">Denmark</option>
+    <option value="34">Dominican Republic</option>
+    <option value="35">Ecuador</option>
+    <option value="36">Egypt</option>
+    <option value="37">El Salvador</option>
+    <option value="38">Ethiopia</option>
+    <option value="39">Fiji Islands</option>
+    
+    <option value="40">Finland</option>
+    <option value="41">France</option>
+    <option value="42">Gabon</option>
+    <option value="43">Gambia</option>
+    <option value="44">Georgia</option>
+    <option value="45">Germany</option>
+    <option value="46">Ghana</option>
+    <option value="47">Greece</option>
+    <option value="48">Guatemala</option>
+    
+    <option value="49">Guyana</option>
+    <option value="50">Haiti</option>
+    <option value="51">Honduras</option>
+    <option value="52">Iceland</option>
+    <option value="53">India</option>
+    <option value="54">Indonesia</option>
+    <option value="55">Iran, Islamic Rep of</option>
+    <option value="56">Israel</option>
+    <option value="57">Italy</option>
+    
+    <option value="58">Jamaica</option>
+    <option value="59">Japan</option>
+    <option value="60">Jordan</option>
+    <option value="61">Kazakhstan</option>
+    <option value="62">Kenya</option>
+    <option value="63">Korea, Dem People's Rep</option>
+    <option value="64">Korea, Republic of</option>
+    <option value="65">Kuwait</option>
+    <option value="66">Kyrgyzstan</option>
+    
+    <option value="67">Laos</option>
+    <option value="68">Latvia</option>
+    <option value="69">Lebanon</option>
+    <option value="70">Liberia</option>
+    <option value="71">Libyan Arab Jamahiriya</option>
+    <option value="72">Lithuania</option>
+    <option value="73">Madagascar</option>
+    <option value="74">Malawi</option>
+    <option value="75">Malaysia</option>
+    
+    <option value="76">Mali</option>
+    <option value="77">Malta</option>
+    <option value="78">Mauritania</option>
+    <option value="79">Mauritius</option>
+    <option value="80">Mexico</option>
+    <option value="81">Moldova, Republic of</option>
+    <option value="82">Morocco</option>
+    <option value="83">Mozambique</option>
+    <option value="84">Myanmar</option>
+    
+    <option value="85">Namibia</option>
+    <option value="86">Nepal</option>
+    <option value="87">Netherlands</option>
+    <option value="88">Nicaragua</option>
+    <option value="89">Nigeria</option>
+    <option value="90">Norway</option>
+    <option value="91">Pakistan</option>
+    <option value="92">Panama</option>
+    <option value="93">Paraguay</option>
+    
+    <option value="94">Peru</option>
+    <option value="95">Philippines</option>
+    <option value="96">Poland</option>
+    <option value="97">Portugal</option>
+    <option value="98">Romania</option>
+    <option value="99">Russian Federation</option>
+    <option value="100">Rwanda</option>
+    <option value="101">Saudi Arabia</option>
+    <option value="102">Senegal</option>
+    
+    <option value="103">South Africa</option>
+    <option value="104">Spain</option>
+    <option value="105">Sri Lanka</option>
+    <option value="106">Suriname</option>
+    <option value="107">Swaziland</option>
+    <option value="108">Sweden</option>
+    <option value="109">Switzerland</option>
+    <option value="110">Syrian Arab Republic</option>
+    <option value="111">Tanzania, United Rep of</option>
+    
+    <option value="112">Togo</option>
+    <option value="113">Trinidad and Tobago</option>
+    <option value="114">Tunisia</option>
+    <option value="115">Turkey</option>
+    <option value="116">Turkmenistan</option>
+    <option value="117">Ukraine</option>
+    <option value="118">United Kingdom</option>
+    <option value="119">United States of America</option>
+    <option value="120">Uzbekistan</option>
+    
+    <option value="121">Venezuela, Boliv Rep of</option>
+    <option value="122">Viet Nam</option>
+    <option value="123">Yemen</option>
+    <option value="124">Zambia</option>
+    <option value="125">Zimbabwe</option>
+    
+    </select>
+    </td>
+          </tr>
+                    <tr><td><strong>Food 
+                      consumption</strong></td>
+                    </tr>
+                    <tr> 
+                      <td>Cereal 
+                        products (wheat, rice, maize, etc.)</td>
+    
+                      <td> 
+                        <input name="cereal" size="3" type="text" value="">
+                        kg per week</td>
+                    </tr>
+                    <tr> 
+                      <td>Meat 
+                        products</td>
+                      <td> 
+                        <input name="meat" size="3" type="text" value="">
+                        kg per week</td>
+    
+                    </tr>
+                    <tr> 
+                      <td><p>Dairy 
+                          products</p></td>
+                      <td> 
+                        <input name="diary" size="3" type="text" value="">
+                        kg per week</td>
+                    </tr>
+                    <tr> 
+                      <td>Eggs</td>
+    
+                      <td> 
+                        <input name="egg" size="3" type="text" value="">
+                        number per week</td>
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        do you prefer to take your food?</td>
+                      <td> 
+                          
+      <select name="fat">
+                                              <option value="" selected="selected">Fat content</option>
+                                                     <option value="1">With average fat</option>				 
+                                                <option value="0.7">Low fat</option>	
+                                                            <option value="1.3">High fat</option>
+    
+                                              </select>
+                        </td>
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        is your sugar and sweets consumption?</td>
+    
+                      <td> 
+    <select name="sugar">
+                                              <option value="" selected="selected">Sugar consumption</option>
+                                                        <option value="1">Average</option>
+                                                        <option value="0.7">Low</option>
+                                                            <option value="1.3">High</option>
+                        
+                        </select>
+    
+                        </td>
+                    </tr>
+                    <tr> 
+                      <td>Vegetables</td>
+                      <td> 
+                        <input name="vegetable" size="3" type="text" value="">
+                        kg per week</td>
+                    </tr>
+                    <tr> 
+                      <td>Fruits</td>
+    
+                      <td> 
+                        <input name="fruit" size="3" type="text" value="">
+                        kg per week </td>
+                    </tr>
+                    <tr> 
+                      <td>Starchy 
+                        roots (potatoes, cassava)</td>
+                      <td> 
+                        <input name="root" size="3" type="text" value="">
+                        kg per week</td>
+    
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        many cups of coffee do you take per day?</td>
+                      <td> 
+                        <input name="coffee" size="3" type="text" value="">
+                        cup per day</td>
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        many cups of tea do you take per day?</td>
+    
+                      <td> 
+                        <input name="tea" size="3" type="text" value="">
+                        cup per day</td>
+                    </tr>
+                    <tr> 
+                      <td><strong>Domestic water use - indoors</strong></td>
+    
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        many showers do you take each day?</td>
+                      <td>  
+                        <input name="showernumber" size="3" type="text" value="">
+                        number per day</td>
+                    </tr>
+                    <tr> 
+                      <td>What 
+                        is the average length of each shower?</td>
+    
+                      <td> 
+                        <input name="showerminute" size="3" type="text" value="">
+                        minute per shower</td>
+                    </tr>
+                    <tr> 
+                      <td>Do your 
+                        showers have standard or low-flow showerheads?</td>
+                      <td> 
+                        <input name="showertype" value="standard" type="radio">
+                        Standard shower head</td>
+    
+                    </tr>
+                    <tr> 
+                      <td>&nbsp;</td>
+                      <td> 
+                        <input name="showertype" value="lowflow" type="radio">
+                        Low flow shower head</td>
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        many baths do you have each week?</td>
+    
+                      <td> 
+                        <input name="bathnumber" size="3" type="text" value="">
+                        number per week</td>
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        many times per day do you brush your teeth, shave or wash 
+                        your hand?</td>
+                      <td> 
+                        <input name="tap1" size="3" type="text" value="">
+                        number per day</td>
+    
+                    </tr>
+                    <tr> 
+                      <td>Do you 
+                        leave the tap running when brushing your teeth and shaving?</td>
+                      <td> 
+                        <input name="tap2" value="20" type="radio">
+                        Yes </td>
+                    </tr>
+                    <tr> 
+                      <td>&nbsp;</td>
+    
+                      <td> 
+                        <input name="Tap2" value="1" type="radio">
+                        No </td>
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        many loads of laundry do you do in an average week?</td>
+                      <td> 
+                        <input name="laundryload" size="3" type="text" value="">
+                        times per week</td>
+    
+                    </tr>
+                    <tr> 
+                      <td>Do you 
+                        have a dual flush toilet?</td>
+                      <td> 
+                        <input name="toilettype" value="yes" type="radio">
+                        Yes </td>
+                    </tr>
+                    <tr> 
+                      <td>&nbsp;</td>
+    
+                      <td> 
+                        <input name="toilettype" value="no" type="radio">
+                        No </td>
+                    </tr>
+                    <tr> 
+                      <td>&nbsp;</td>
+                      <td> 
+                        <input name="toilettype" value="Eco" type="radio">
+                        No flushing. Use eco-toilet. </td>
+    
+                    </tr>
+                    <tr> 
+                      <td>If you 
+                        wash your dishes by hand how many times are dishes washed 
+                        each day? </td>
+                      <td> 
+                        <input name="dishnumber" size="3" type="text" value=""> 
+                        number per day</td>
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        long does the water run during each wash?</td>
+    
+                      <td> 
+                        <input name="dishminute" size="3" type="text" value="">
+                        minute per wash</td>
+                    </tr>
+                    <tr> 
+                      <td>If you 
+                        have a dish washer, how many times is it used each week?</td>
+                      <td> 
+                        <input name="dishweek" size="3" type="text" value="">
+                        number per week</td>
+    
+                    </tr>
+                    <tr> 
+                      <td><strong>Domestic water use - outdoors</strong></td>
+                      <td>&nbsp;</td>
+                    </tr>
+    
+                    <tr> 
+                      <td>How 
+                        many times per week do you wash a car?</td>
+                      <td> 
+                        <input name="carweek" size="3" type="text" value="">
+                        number per week</td>
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        many times do you water your garden each week?</td>
+                      <td> 
+                        <input name="gardenweek" size="3" type="text" value="">
+    
+                        number per week</td>
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        long do you water your garden each time?</td>
+                      <td> 
+                        <input name="gardenminute" size="3" type="text" value="">
+                        minute per watering</td>
+                    </tr>
+    
+                    <tr> 
+                      <td>How 
+                        long per week do you spend rinsing equipment, driveways, or 
+                        sidewalks each week?</td>
+                      <td> 
+                        <input name="rinsingminute" size="3" type="text" value="">
+                        minute per week</td>
+                    </tr>
+                    <tr> 
+                      <td>If you 
+                        have a swimming pool what is its capacity?</td>
+                      <td> 
+                        <input name="poolcapacity" size="3" type="text" value="">
+    
+                        cubic meter</td>
+                    </tr>
+                    <tr> 
+                      <td>How 
+                        many times per year do you empty your swimming pool?</td>
+                      <td> 
+                        <input name="poolnumber" size="3" type="text" value="">
+                        number per year</td>
+                    </tr>
+                    <tr> 
+                      <td><strong>Industrial 
+                        goods consumption</strong></td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td>What 
+                        is your gross yearly income? (Only that part of income which 
+                        is consumed by you).</td>
+                      <td> 
+                        <input name="income" size="10" type="text" value="">
+                        US$ per year</td>
+                    </tr>
+        </tbody>
+      </table>
+</body>
+</html>

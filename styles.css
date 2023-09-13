@@ -1,0 +1,71 @@
+/* Add a blue background color to the header */
+header {
+    background-color: #007BFF; /* Change this color to your preference */
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Add a relative position for the ripple effect */
+}
+
+body{
+    background-color:rgb(31, 114, 186);
+}
+
+/* Style the logo */
+.navbar h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+/* Style the navigation menu */
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the search bar */
+.search-bar {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #fff; /* Change this color to your preference */
+    color: #007BFF; /* Change this color to your preference */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Add a water ripple effect to the header background */
+header::before {
+    content: "";
+    background-image: radial-gradient(circle, #fff 10%, transparent 10%);
+    background-size: 50px 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    pointer-events: none;
+}
